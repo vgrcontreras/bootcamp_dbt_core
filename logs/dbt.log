@@ -1,0 +1,113 @@
+[0m15:52:27.371821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238EE7B48C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238EFC19100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238EEBA3A40>]}
+
+
+============================== 15:52:27.442971 | aade0d0b-d8d0-47aa-a901-17ac960581f2 ==============================
+[0m15:52:27.442971 [info ] [MainThread]: Running with dbt=1.9.0
+[0m15:52:27.443946 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\vgabriel\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:52:27.506623 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/vgabriel/.dbt')}
+[0m15:52:27.508625 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m15:57:29.601523 [debug] [MainThread]: Starter project path: C:\Users\vgabriel\github\contreras3991\jornada-de-dados\bootcamp\bootcamp_dbt_core\.venv\Lib\site-packages\dbt\include\starter_project
+[0m15:57:29.621758 [info ] [MainThread]: 
+Your new dbt project "projetoaovivo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:57:29.622756 [info ] [MainThread]: Setting up your profile.
+[0m16:15:13.836359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C394C07A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3B429CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C38FA28A0>]}
+
+
+============================== 16:15:13.846108 | 114fa5c0-fc36-475d-ba06-407216f0f4ad ==============================
+[0m16:15:13.846108 [info ] [MainThread]: Running with dbt=1.9.0
+[0m16:15:13.848084 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\vgabriel\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:15:18.041973 [debug] [MainThread]: Starter project path: C:\Users\vgabriel\github\contreras3991\jornada-de-dados\bootcamp\bootcamp_dbt_core\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:15:18.087390 [info ] [MainThread]: 
+Your new dbt project "projetoaovivo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:15:18.091435 [info ] [MainThread]: Setting up your profile.
+[0m16:15:58.275300 [info ] [MainThread]: Profile projetoaovivo written to C:\Users\vgabriel\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:15:58.281745 [debug] [MainThread]: Command `dbt init` succeeded at 16:15:58.280747 after 44.69 seconds
+[0m16:15:58.282260 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3B760A40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3BD09040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3BDE9220>]}
+[0m16:15:58.283623 [debug] [MainThread]: Flushing usage events
+[0m16:15:58.996888 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:16:56.605501 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021ABFB263F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AC006CCB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AC006C8F0>]}
+
+
+============================== 16:16:56.613087 | 4b43516a-549b-42e1-bd7d-532b15b1db2a ==============================
+[0m16:16:56.613087 [info ] [MainThread]: Running with dbt=1.9.0
+[0m16:16:56.614041 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\vgabriel\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:16:56.670175 [info ] [MainThread]: dbt version: 1.9.0
+[0m16:16:56.672207 [info ] [MainThread]: python version: 3.12.4
+[0m16:16:56.673108 [info ] [MainThread]: python path: C:\Users\vgabriel\github\contreras3991\jornada-de-dados\bootcamp\bootcamp_dbt_core\.venv\Scripts\python.exe
+[0m16:16:56.674113 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m16:16:56.795855 [info ] [MainThread]: Using profiles dir at C:\Users\vgabriel\.dbt
+[0m16:16:56.797812 [info ] [MainThread]: Using profiles.yml file at C:\Users\vgabriel\.dbt\profiles.yml
+[0m16:16:56.798766 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\vgabriel\github\contreras3991\jornada-de-dados\bootcamp\bootcamp_dbt_core\dbt_project.yml
+[0m16:16:56.805761 [info ] [MainThread]: adapter type: postgres
+[0m16:16:56.806780 [info ] [MainThread]: adapter version: 1.9.0
+[0m16:16:56.807800 [info ] [MainThread]: Configuration:
+[0m16:16:56.809822 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:16:56.811824 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:16:56.812791 [info ] [MainThread]: Required dependencies:
+[0m16:16:56.813786 [debug] [MainThread]: Executing "git --help"
+[0m16:16:56.847864 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:16:56.850138 [debug] [MainThread]: STDERR: "b''"
+[0m16:16:56.851212 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:16:56.853157 [info ] [MainThread]: Connection:
+[0m16:16:56.854152 [info ] [MainThread]:   host: localhost
+[0m16:16:56.855169 [info ] [MainThread]:   port: 5432
+[0m16:16:56.856148 [info ] [MainThread]:   user: postgres
+[0m16:16:56.857158 [info ] [MainThread]:   database: northwind
+[0m16:16:56.861149 [info ] [MainThread]:   schema: public
+[0m16:16:56.862157 [info ] [MainThread]:   connect_timeout: 10
+[0m16:16:56.864191 [info ] [MainThread]:   role: None
+[0m16:16:56.865176 [info ] [MainThread]:   search_path: None
+[0m16:16:56.867154 [info ] [MainThread]:   keepalives_idle: 0
+[0m16:16:56.868165 [info ] [MainThread]:   sslmode: None
+[0m16:16:56.870147 [info ] [MainThread]:   sslcert: None
+[0m16:16:56.871149 [info ] [MainThread]:   sslkey: None
+[0m16:16:56.872149 [info ] [MainThread]:   sslrootcert: None
+[0m16:16:56.873148 [info ] [MainThread]:   application_name: dbt
+[0m16:16:56.874784 [info ] [MainThread]:   retries: 1
+[0m16:16:56.877797 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:16:57.184863 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m16:16:57.547250 [debug] [MainThread]: Using postgres connection "debug"
+[0m16:16:57.548333 [debug] [MainThread]: On debug: select 1 as id
+[0m16:16:57.549247 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:16:57.634122 [debug] [MainThread]: SQL status: SELECT 1 in 0.086 seconds
+[0m16:16:57.636117 [debug] [MainThread]: On debug: Close
+[0m16:16:57.637122 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:16:57.638120 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:16:57.639121 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\vgabriel\github\contreras3991\jornada-de-dados\bootcamp\bootcamp_dbt_core\dbt_project.yml> not found
+
+[0m16:16:57.642120 [debug] [MainThread]: Command `dbt debug` failed at 16:16:57.642120 after 1.31 seconds
+[0m16:16:57.644231 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:16:57.645271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AC00FC380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AC0401F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AC05BCD70>]}
+[0m16:16:57.646246 [debug] [MainThread]: Flushing usage events
+[0m16:16:58.263060 [debug] [MainThread]: An error was encountered while trying to flush usage events
